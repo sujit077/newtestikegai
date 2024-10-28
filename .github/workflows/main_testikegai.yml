@@ -23,7 +23,7 @@ jobs:
 
       - name: npm install, build, and test
         run: |
-          npm install
+          npm install --legacy-peer-deps
           npm run build 
           cp -R ./build/static ./build/standalone/build/static
           cp -R ./public ./build/standalone/public
