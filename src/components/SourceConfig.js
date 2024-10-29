@@ -324,7 +324,7 @@ export default function SourceConfig({currDataStoreId, setSidebarToggle, refresh
 
     // Retry the ingestion if failed
     function retryIngestion(datasetName, fileName){
-        console.log(datasetName, fileName);
+        console.log(datasetName, fileName, 'retry');
 
         let currUsecase = getUseCase()
         

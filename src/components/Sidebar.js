@@ -94,7 +94,7 @@ export default function Sidebar(){
             <Divider/>
 
             {/* Settings */}
-            <div id="settings" className=" select-none cursor-pointer w-full h-[4rem] hover:bg-[#b497ff] hover:text-white text-[#00338d] ease-in-out duration-200 flex justify-start items-center px-7 gap-2">
+            <a id="settings" href={"/settings"} className=" select-none cursor-pointer w-full h-[4rem] hover:bg-[#b497ff] hover:text-white text-[#00338d] ease-in-out duration-200 flex justify-start items-center px-7 gap-2">
                 
                 <div className="text-2xl"><IoSettingsOutline/></div>
 
@@ -102,7 +102,7 @@ export default function Sidebar(){
                     Settings
                 </div>
 
-            </div>
+            </a>
 
 
         </div>

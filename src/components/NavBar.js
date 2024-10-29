@@ -155,7 +155,7 @@ export default function NavBar({username, search, setSearch}){
                     </div>
                     
                     {/* Site Settings */}
-                    <div className="w-[20rem] text-sm hover:bg-[#b497ff] hover:text-white ease-in-out duration-100 text-[#888] cursor-pointer px-5 py-2" onClick={handleClose}>
+                    <div className="w-[20rem] text-sm hover:bg-[#b497ff] hover:text-white ease-in-out duration-100 text-[#888] cursor-pointer px-5 py-2" onClick={()=>{window.location.assign("/settings")}}>
                         Settings
                     </div>
 
